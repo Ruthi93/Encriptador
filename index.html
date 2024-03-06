@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="titulo">Encriptador</div>
+   
+    <div class="contenedor">
+        <div><textarea rows="25" cols="50" name="entrada-text" id="entrada" class="txt" placeholder="Escribe aqui. Nota!! no se admiten mayusculas ni carateres especiales."></textarea></div>
+        <div><textarea rows="25" cols="25" name="salida-text" id="salida" class="txt2" placeholder="Texto encriptado."></textarea></div>
+    </div>
+
+    <div class="contenedor2">
+        <div class="boton-encryptar"><button onclick="encryptText()" class="boton1"> Encryptar </button></div>
+        <div class="boton-desencryptar"><button onclick="decryptText()" class="boton2">Desencryptar</button></div>
+        <div class="boton-copiar"><button onclick="copi()" class="boton3">copiar</button></div>    
+    </div>
+</body>
+<div>
+    <div class="logo1"><a href="https://github.com/Ruthi93">
+        <img src="imagenes/logogithub.png" alt="logogithub" width="25" height="25"></a>
+    </div>
+    <div class="logo2"><a href="https://www.linkedin.com/in/ruth-ramirez-p-b442932aa/">
+        <img src="imagenes/logolinkedin2.png" alt="logolinkedin" width="25" height="25"></a>
+    </div>
+</div>
+  
+</html>
+<script src="app.js"></script>

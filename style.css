@@ -1,0 +1,89 @@
+.chakra-petch-light-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+body {
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    
+}
+
+.logo1{
+   
+    padding: 15px;
+    overflow: hidden;
+    gap: 15px;
+    display: inline-block;
+}
+
+.logo2{
+
+    padding: 15px;
+    overflow: hidden;
+    gap: 15px;
+    display: inline-block;
+}
+
+
+.titulo, .chakra-petch-light-italic{
+    margin: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    color: pink;
+ }
+
+.contenedor {
+    display: flex;
+    gap: 50px; /* Ajusta el espacio entre los textarea */
+}
+
+.txt, .txt2 {
+    width: 100%; /* O ajusta el ancho según tus necesidades */
+    resize: none;
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid paleturquoise;
+    opacity: 0.4;
+}
+
+.contenedor2 {
+    display: flex;
+    gap: 20px; /* Ajusta el espacio entre los botones */
+    margin-top: 20px;
+}
+
+.boton1 {
+    margin-right: 100px; /* Mueve el botón 1 hacia la derecha */
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.boton2 {
+    margin-left: 80px; /* Mueve el botón 2 hacia la izquierda */
+    margin-right: 10px; /* Añade margen derecha al botón 2 */
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.boton3 {
+    margin-left: 150px; /* Mueve el botón 3 hacia la izquierda */
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+/* Estilos adicionales de los botones si es necesario */
+.boton1, .boton2, .boton3 {
+    padding: 10px;
+}
